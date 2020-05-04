@@ -1,4 +1,4 @@
-function backup_ElamaTables_daily() {
+function backup_Tables_daily() {
    BigQuery_project = “YOUR_BIGQUERY_PROJECT_ID”;
    BigQuery_project = “YOUR_BIGQUERY_DATASET_ID”;
    BigQuery_project = “YOUR_BIGQUERY_TABLE_ID”;
