@@ -22,7 +22,7 @@ function backup_ElamaTables_daily() {
                "datasetId": datasetId,
                "tableId": tableId
              },
-             "destinationUri": "gs://elama/backup/" + projectId + "/" + datasetId + "/" + tableId + "/" + tableId + copyDate + ".json",
+             "destinationUri": "gs://YOUR_STORAGE_BUCKET_NAME/backup/" + projectId + "/" + datasetId + "/" + tableId + "/" + tableId + copyDate + ".json",
              "destinationFormat": "NEWLINE_DELIMITED_JSON"
            }
          }
@@ -50,7 +50,7 @@ function backup_ElamaTables_daily() {
                 "datasetId": datasetId,
                 "tableId": tableId + date
             },
-            "destinationUri": "gs://elama/backup/" + projectId + "/" + datasetId + "/" + tableId + "/" + tableId + date + ".json",
+            "destinationUri": "gs://YOUR_STORAGE_BUCKET_NAME/backup/" + projectId + "/" + datasetId + "/" + tableId + "/" + tableId + date + ".json",
             "destinationFormat": "NEWLINE_DELIMITED_JSON"
             }
           }
